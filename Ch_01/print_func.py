@@ -12,7 +12,7 @@ print("hello 'beautiful' world")
 # can't use "double quotes" inside "double quotes"
 # print("hello "ugly" world")   ❌
 # print("hello \"ugly\" world")  ✅
-# print('I'm Saad')   ❌ This will cause a SyntaxError
+# print('I'm Saad')   ❌ERROR: This will cause a SyntaxError
 print('I\'m Saad')    # ✅ Using the escape character '\'
 
 # It's OK to use "double quotes" inside 'single quotes'
