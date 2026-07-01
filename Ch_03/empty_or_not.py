@@ -3,6 +3,7 @@
       and non-empty ones as True. 
 '''
 
+
 # Simple Example
 name = input("Enter your name: ")
 if name:
