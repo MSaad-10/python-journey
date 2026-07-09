@@ -55,11 +55,12 @@ def student(name, *marks):
 
 student('Saad',10,20,30,40)
 
-def teacher(*args, name):    # TypeError: *args must be after any other arg
+def teacher(*args, name):    
     print(f'Name:\t{name}')
     print(f'Marks:\t{args}')
 
-# teacher(21,34,12,12)
+teacher(21,34,12,12)    # TyeError: arguments passed positionally
+teacher(21,34,12,12, name = "Saad")    # Works fine as arguments are passed explicitly with naming keyword
 print('\n')
 
 
