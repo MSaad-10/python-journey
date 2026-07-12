@@ -9,5 +9,7 @@ l2 = [0,3,7,8,4]
 new_list = []
 for pair in zip(l1,l2):
     new_list.append(max(pair))
+print(f'Simple:      \t{new_list}')
 
-print(new_list)
+max_num = [max(pair) for pair in zip(l1,l2)]
+print(f'Comprehension:\t{max_num}')
