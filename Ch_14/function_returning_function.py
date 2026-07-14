@@ -36,6 +36,4 @@ def power(exponent):
 square = power(2)
 cube = power(3)
 print(f'Square of 5:\t{square(5)}')
-print(f'Cube of 4:  \t{cube(3)}')
-
-
+print(f'Cube of 3:  \t{cube(3)}')
