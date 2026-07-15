@@ -143,43 +143,18 @@ Below is the project hierarchy. Click any file to jump to a detailed description
 <a id="ch_01"></a>
 ### 📘 Chapter 01 — Basics: strings, raw text, and printing
 
-<a id="file-ch_01-calc-py"></a>
-#### Ch_01/calc.py
-- **Purpose:** arithmetic examples and simple calculations.
-- **Key concepts:** numeric types, operators, precedence.
 
-<a id="file-ch_01-emoji_char-py"></a>
-#### Ch_01/emoji_char.py
-- **Purpose:** working with emoji and Unicode characters.
-- **Key concepts:** Unicode code points, string encoding, printing emojis in terminals.
+|                                 **Files**                                |                      **Key Concepts**                                          |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------| 
+| <a id="file-ch_01-calc-py"></a>**Ch_01/calc.py**                         | arithmetic examples and simple calculations.                                   |
+| <a id="file-ch_01-emoji_char-py"></a> **Ch_01/emoji_char.py**            | working with emoji and Unicode characters.                                     |
+| <a id="file-ch_01-escape_sequences-py"></a>**Ch_01/escape_sequences.py** | demonstrates newline `\n`, tab `\t`, and other escape sequences.               |
+| <a id="file-ch_01-Ex_01-py"></a>**Ch_01/Ex_01.py**                       | reinforces `print()` usage and string literals.                                |
+| <a id="file-ch_01-print_func-py"></a>**Ch_01/print_func.py**             | examples of the `print()` function and its parameters (`sep`, `end`, `file`).  |
+| <a id="file-ch_01-raw_string-py"></a>**Ch_01/raw_string.py**             | demonstrates raw strings `r"..."` and when to use them (regex, paths).         |
+| <a id="file-ch_01-regex-py"></a>**Ch_01/regex.py**                       | basic regular expression examples using `re` module.                           |
+| <a id="file-ch_01-variable-py"></a>**Ch_01/variable.py**                 | variable assignment, types, and introspection (`type()`).                      |                    
 
-<a id="file-ch_01-escape_sequences-py"></a>
-#### Ch_01/escape_sequences.py
-- **Purpose:** demonstrate newline `\n`, tab `\t`, and other escape sequences.
-- **Key concepts:** raw vs interpreted strings, escaping backslashes.
-
-<a id="file-ch_01-Ex_01-py"></a>
-#### Ch_01/Ex_01.py
-- **Purpose:** exercise 1 for chapter 1 — practice basic outputs.
-- **Key concepts:** reinforces `print()` usage and string literals.
-
-<a id="file-ch_01-print_func-py"></a>
-#### Ch_01/print_func.py
-- **Purpose:** examples of the `print()` function and its parameters (`sep`, `end`, `file`).
-- **Key concepts:** I/O formatting, flushing output.
-
-<a id="file-ch_01-raw_string-py"></a>
-#### Ch_01/raw_string.py
-- **Purpose:** demonstrate raw strings `r"..."` and when to use them (regex, paths).
-
-<a id="file-ch_01-regex-py"></a>
-#### Ch_01/regex.py
-- **Purpose:** basic regular expression examples using `re` module.
-- **Key concepts:** `re.search`, `re.match`, patterns, groups, escapes.
-
-<a id="file-ch_01-variable-py"></a>
-#### Ch_01/variable.py
-- **Purpose:** variable assignment, types, and introspection (`type()`).
 
 <a id="ch_02"></a>
 ### 📘 Chapter 02 — Strings and formatting
