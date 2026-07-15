@@ -84,28 +84,28 @@ Below is the project hierarchy. Click any file to jump to a detailed description
       - 📄 [Ex_01.py](#file-ch_07-Ex_01-py)
       - 📄 [Ex_02.py](#file-ch_07-Ex_02-py)
       - 📄 [Ex_03.py](#file-ch_07-Ex_03-py)
-  - 📁 **[Ch_08](#ch_08)/**
+  - 📁 **[Ch_08/](#ch_08)**
       - 📄 [frozenset_basics.py](#file-ch_08-frozenset_basics-py)
       - 📄 [set_basics.py](#file-ch_08-set_basics-py)
       - 📄 [set_comprehension.py](#file-ch_08-set_comprehension-py)
       - 📄 [set_methods.py](#file-ch_08-set_methods-py)
       - 📄 [set_operators.py](#file-ch_08-set_operators-py)
-  - 📁 **[Ch_09](#ch_09)/**
+  - 📁 **[Ch_09/](#ch_09)**
       - 📄 [Ex_01.py](#file-ch_09-Ex_01-py)
       - 📄 [Ex_02.py](#file-ch_09-Ex_02-py)
       - 📄 [Ex_03.py](#file-ch_09-Ex_03-py)
       - 📄 [Ex_04.py](#file-ch_09-Ex_04-py)
       - 📄 [list_comprehension.py](#file-ch_09-list_comprehension-py)
-  - 📁 **[Ch_10](#ch_10)/**
+  - 📁 **[Ch_10/](#ch_10)**
       - 📄 [dictionary_comprehension.py](#file-ch_10-dictionary_comprehension-py)
-  - 📁 **[Ch_11](#ch_11)/**
+  - 📁 **[Ch_11/](#ch_11)**
       - 📄 [args_positional_arguments.py](#file-ch_11-args_positional_arguments-py)
       - 📄 [Ex_01.py](#file-ch_11-Ex_01-py)
       - 📄 [Ex_02.py](#file-ch_11-Ex_02-py)
       - 📄 [kwargs_keyword_arguments.py](#file-ch_11-kwargs_keyword_arguments-py)
-  - 📁 **[Ch_12](#ch_12)/**
+  - 📁 **[Ch_12/](#ch_12)**
       - 📄 [lambda_basics.py](#file-ch_12-lambda_basics-py)
-  - 📁 **[Ch_13](#ch_13)/**
+  - 📁 **[Ch_13/](#ch_13)**
       - 📄 [advance_min_max.py](#file-ch_13-advance_min_max-py)
       - 📄 [any_all_basics.py](#file-ch_13-any_all_basics-py)
       - 📄 [docstrings_and_help.py](#file-ch_13-docstrings_and_help-py)
@@ -119,7 +119,7 @@ Below is the project hierarchy. Click any file to jump to a detailed description
       - 📄 [map_function_basics.py](#file-ch_13-map_function_basics-py)
       - 📄 [sort_vs_sorted.py](#file-ch_13-sort_vs_sorted-py)
       - 📄 [zip_function_basics.py](#file-ch_13-zip_function_basics-py)
-  - 📁 **[Ch_14](#ch_14)/**
+  - 📁 **[Ch_14/](#ch_14)**
       - 📄 [decorators_basics.py](#file-ch_14-decorators_basics-py)
       - 📄 [Ex_01.py](#file-ch_14-Ex_01-py)
       - 📄 [Ex_02.py](#file-ch_14-Ex_02-py)
