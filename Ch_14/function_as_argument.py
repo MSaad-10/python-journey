@@ -1,6 +1,7 @@
 # ===== Using map() Function =====
 l1 = [1,2,3,4,5]
 print(f'Map Implementation:\t{list(map(lambda a: a**2, l1))}')
+print()
 
 
 # ===== Using Simple Function =====
@@ -12,6 +13,7 @@ def my_map(func, l):
 
 l2 = [1,2,3,4,5]
 print(f'Simple Function:\t{my_map(lambda a: a**2, l2)}')
+print()
 
 
 # ===== Using List Comprehension =====
