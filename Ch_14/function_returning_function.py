@@ -6,6 +6,7 @@ def outer_func():
 
 message = outer_func()
 message()
+print()
 
 
 # ===== Calling the Inner Function Immediately =====
@@ -15,6 +16,7 @@ def outer():
     return inner()          # Executes the function first then returns whatever it returns
 
 outer()
+print()
 
 
 # ===== Creating a Closure with a Captured Value =====
@@ -25,6 +27,7 @@ def outside(msg: str):
 
 result = outside("hello world!")
 result()
+print()
 
 
 # ===== Practical Example =====
