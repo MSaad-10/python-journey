@@ -58,12 +58,12 @@ class Student:
     def __init__(self, name: str):
         self.name = name
 
-    @staticmethod
-    def show():
-        print(self.name)        # cannot access instance variable
+    # @staticmethod
+    # def show():
+# #         print(self.name)        # cannot access instance variable
 
-s1 = Student('Ali')
-s1.show()
+# # s1 = Student('Ali')
+# s1.show()
 
 
 # ============= Can a Static Method Access Class Variables? =============
