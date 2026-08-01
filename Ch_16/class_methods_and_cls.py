@@ -59,8 +59,8 @@ class Person:
         self.name = name
         self.age = age
 
-    @classmethod
-    def from_string(cls, data_str: str) -> Person:
+    @classmethod                    
+    def from_string(cls, data_str: str) -> Person:      # Alternative constructor
         # Parse "Saad-21" into a new Person object
         name, age = data_str.split('-')
         return cls(name, int(age))
