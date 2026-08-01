@@ -126,6 +126,12 @@ Below is the project hierarchy. Click any file to jump to a detailed description
       - 📄 [first_class_functions_and_closures.py](#file-ch_14-first_class_functions_and_closures-py)
       - 📄 [function_as_argument.py](#file-ch_14-function_as_argument-py)
       - 📄 [function_returning_function.py](#file-ch_14-function_returning_function-py)
+  - 📁 **[Ch_15/](#ch_15)**
+      - 📄 [generator_basics.py](#file-ch_15-generator_basics-py)
+      - 📄 [generator_comprehension.py](#file-ch_15-generator_comprehension-py)
+      - 📄 [Ex_01.py](#file-ch_15-Ex_01-py)
+      - 📄 [list_vs_generator_performance.py](#file-ch_15-list_vs_generator_performance-py)
+      - 📄 [file.txt](#file-ch_15-file-txt)
 
 ---
 
@@ -370,6 +376,21 @@ Below is the project hierarchy. Click any file to jump to a detailed description
 | <a id="file-ch_14-function_as_argument-py"></a>**Ch_14/function_as_argument.py**                             | passing functions as arguments and callback patterns.          |
 | <a id="file-ch_14-function_returning_function-py"></a>**Ch_14/function_returning_function.py**               | functions that create and return other functions.              |
 
+
+
+
+<a id="ch_15"></a>
+### 📘 Chapter 15 — Higher-order functions and generators
+
+
+
+|                                 **Files**                                                          |                      **Key Concepts**                          |
+|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------| 
+| <a id="file-ch_15-generator_basics-py"></a>**Ch_15/generator_basics.py**                           | basic decorator patterns, `@decorator` syntax example.         |
+| <a id="file-ch_15-generator_comprehension-py"></a>**Ch_15/generator_comprehension.py**             | first exercise — decorator basics.                             |
+| <a id="file-ch_15-Ex_01-py"></a>**Ch_15/Ex_01.py**                                                 | second exercise — further decorator practice.                  |
+| <a id="file-ch_15-list_vs_generator_performance-py"></a>**Ch_15/list_vs_generator_performance.py** | first-class functions, closures, and lexical scoping examples. |
+| <a id="file-ch_15-file-txt"></a>**Ch_15/file.txt**                                                 | passing functions as arguments and callback patterns.          |
 
 ---
 
