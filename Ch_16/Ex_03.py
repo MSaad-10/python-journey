@@ -1,6 +1,6 @@
 '''
     - Create a Person class that:
-        * contains a counter class variable that keeps the record of number of objects of Person class.
+        * contains a 'total_persons' class variable that keeps the record of number of objects of Person class.
 '''
 
 
