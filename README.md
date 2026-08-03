@@ -380,7 +380,7 @@ Below is the project hierarchy. Click any file to jump to a detailed description
 
 
 <a id="ch_15"></a>
-### 📘 Chapter 15 — Higher-order functions and generators
+### 📘 Chapter 15 — Generators and lazy iteration
 
 
 
