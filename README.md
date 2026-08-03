@@ -384,13 +384,13 @@ Below is the project hierarchy. Click any file to jump to a detailed description
 
 
 
-|                                 **Files**                                                          |                      **Key Concepts**                          |
-|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------| 
-| <a id="file-ch_15-generator_basics-py"></a>**Ch_15/generator_basics.py**                           | basic decorator patterns, `@decorator` syntax example.         |
-| <a id="file-ch_15-generator_comprehension-py"></a>**Ch_15/generator_comprehension.py**             | first exercise — decorator basics.                             |
-| <a id="file-ch_15-Ex_01-py"></a>**Ch_15/Ex_01.py**                                                 | second exercise — further decorator practice.                  |
-| <a id="file-ch_15-list_vs_generator_performance-py"></a>**Ch_15/list_vs_generator_performance.py** | first-class functions, closures, and lexical scoping examples. |
-| <a id="file-ch_15-file-txt"></a>**Ch_15/file.txt**                                                 | passing functions as arguments and callback patterns.          |
+|                                 **Files**                                                          |                      **Key Concepts**                                              |
+|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------| 
+| <a id="file-ch_15-generator_basics-py"></a>**Ch_15/generators_basics.py**                          | introduces generators with `yield`, pause/resume behavior, and one-time iteration. |
+| <a id="file-ch_15-generator_comprehension-py"></a>**Ch_15/generator_comprehension.py**             | demonstrates generator comprehensions as a compact way to create lazy iterators.   |
+| <a id="file-ch_15-Ex_01-py"></a>**Ch_15/Ex_01.py**                                                 | exercise showing a generator function that yields even numbers up to a limit.      |
+| <a id="file-ch_15-list_vs_generator_performance-py"></a>**Ch_15/list_vs_generator_performance.py** | compares list and generator performance for creating large sequences.              |
+| <a id="file-ch_15-file-txt"></a>**Ch_15/file.txt**                                                 | sample text file used in generator examples for line-by-line reading.              |
 
 ---
 
