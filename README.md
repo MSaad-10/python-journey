@@ -132,7 +132,26 @@ Below is the project hierarchy. Click any file to jump to a detailed description
       - 📄 [Ex_01.py](#file-ch_15-Ex_01-py)
       - 📄 [list_vs_generator_performance.py](#file-ch_15-list_vs_generator_performance-py)
       - 📄 [file.txt](#file-ch_15-file-txt)
-
+  - 📁 **[Ch_16/](#ch_16)**
+      - 📄 [oop_class_and_objects.py](#file-ch_16-oop-class-and-objects-py)
+      - 📄 [class_variables_and_namespace.py](#file-ch_16-class-variables-and-namespace-py)
+      - 📄 [class_methods_and_cls.py](#file-ch_16-class-methods-and-cls-py)
+      - 📄 [instance_methods_and_state.py](#file-ch_16-instance-methods-and-state-py)
+      - 📄 [static_methods.py](#file-ch_16-static-methods-py)    
+      - 📄 [dunder_methods.py](#file-ch_16-dunder-methods-py)    
+      - 📄 [Ex_01.py](#file-ch_16-Ex-01-py)    
+      - 📄 [Ex_02.py](#file-ch_16-Ex-02-py)    
+      - 📄 [Ex_03.py](#file-ch_16-Ex-03-py)    
+      - 📄 [inheritance_basics.py](#file-ch_16-inheritance-basics-py)    
+      - 📄 [inheritance_types.py](#file-ch_16-inheritance-types-py)    
+      - 📄 [isinstance_issubclass.py](#file-ch_16-isinstance-issubclass-py)    
+      - 📄 [method_resolution_order.py](#file-ch_16-method-resolution-order-py)    
+      - 📄 [encapsulation_and_data_hiding.py](#file-ch_16-encapsulation-and-data-hiding-py)    
+      - 📄 [polymorphism_basics.py](#file-ch_16-polymorphism-basics-py)    
+      - 📄 [polymorphism_static_vs_dynamic.py](#file-ch_16-polymorphism-static-vs-dynamic-py)
+      - 📄 [operator_overloading_and_dunders.py](#file-ch_16-operator-overloading-and-dunders-py)    
+      - 📄 [property_decorators.py](#file-ch_16-property-decorators-py)    
+    
 ---
 
 ## 🔎 How this README is organized
@@ -391,6 +410,34 @@ Below is the project hierarchy. Click any file to jump to a detailed description
 | <a id="file-ch_15-Ex_01-py"></a>**Ch_15/Ex_01.py**                                                 | exercise showing a generator function that yields even numbers up to a limit.      |
 | <a id="file-ch_15-list_vs_generator_performance-py"></a>**Ch_15/list_vs_generator_performance.py** | compares list and generator performance for creating large sequences.              |
 | <a id="file-ch_15-file-txt"></a>**Ch_15/file.txt**                                                 | sample text file used in generator examples for line-by-line reading.              |
+
+
+
+---
+
+<a id="ch_16"></a>
+### 📘 Chapter 16 — Object Oriented Programming (OOP)
+
+|                                 **Files**                                                                |                      **Key Concepts**                                                       |
+|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------| 
+| <a id="file-ch_16-oop-class-and-objects-py"></a>**Ch_16/oop_class_and_objects.py**                       | defining classes, instances, `self`, `__init__`, attributes, and methods.                   |
+| <a id="file-ch_16-class-variables-and-namespace-py"></a>**Ch_16/class_variables_and_namespace.py**       | class vs instance variables, namespaces, and attribute lookup.                              |
+| <a id="file-ch_16-class-methods-and-cls-py"></a>**Ch_16/class_methods_and_cls.py**                       | `@classmethod`, `cls`, and alternative constructors.                                        |
+| <a id="file-ch_16-instance-methods-and-state-py"></a>**Ch_16/instance_methods_and_state.py**             | instance state management and mutability of objects.                                        |
+| <a id="file-ch_16-static-methods-py"></a>**Ch_16/static_methods.py**                                     | `@staticmethod` usage and when to prefer static methods.                                    |
+| <a id="file-ch_16-dunder-methods-py"></a>**Ch_16/dunder_methods.py**                                     | common dunder methods (`__repr__`, `__str__`, `__eq__`) and basics of operator overloading. |
+| <a id="file-ch_16-inheritance-basics-py"></a>**Ch_16/inheritance_basics.py**                             | single inheritance, `super()`, and method overriding.                                       |
+| <a id="file-ch_16-inheritance-types-py"></a>**Ch_16/inheritance_types.py**                               | multiple inheritance patterns and considerations.                                           |
+| <a id="file-ch_16-isinstance-issubclass-py"></a>**Ch_16/isinstance_issubclass.py**                       | `isinstance()` and `issubclass()` usage.                                                    |
+| <a id="file-ch_16-method-resolution-order-py"></a>**Ch_16/method_resolution_order.py**                   | method resolution order (MRO) and `__mro__` inspection.                                     |
+| <a id="file-ch_16-encapsulation-and-data-hiding-py"></a>**Ch_16/encapsulation_and_data_hiding.py**       | name mangling, privacy conventions, and encapsulation techniques.                           |
+| <a id="file-ch_16-polymorphism-basics-py"></a>**Ch_16/polymorphism_basics.py**                           | duck typing and polymorphic behavior across interfaces.                                     |
+| <a id="file-ch_16-polymorphism-static-vs-dynamic-py"></a>**Ch_16/polymorphism_static_vs_dynamic.py**     | static vs dynamic polymorphism concepts and examples.                                       |
+| <a id="file-ch_16-operator-overloading-and-dunders-py"></a>**Ch_16/operator_overloading_and_dunders.py** | operator overloading and rich comparison methods.                                           |
+| <a id="file-ch_16-property-decorators-py"></a>**Ch_16/property_decorators.py**                           | `@property`, setters, and computed attributes.                                              |
+| <a id="file-ch_16-Ex-01-py"></a>**Ch_16/Ex_01.py**                                                       | exercise — `Laptop` class: type-hinted `__init__`, instance attributes, and two objects.    |
+| <a id="file-ch_16-Ex-02-py"></a>**Ch_16/Ex_02.py**                                                       | exercise — adds an `apply_discount()` instance method that returns a percentage off price.  |
+| <a id="file-ch_16-Ex-03-py"></a>**Ch_16/Ex_03.py**                                                       | exercise — `total_persons` class variable counting instances, inspected via `__dict__`.     |
 
 ---
 
