@@ -1,0 +1,4 @@
+Saad, 1000
+Asad, 2000
+Akmal, 5000
+Usman, 9000
