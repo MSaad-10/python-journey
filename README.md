@@ -151,6 +151,25 @@ Below is the project hierarchy. Click any file to jump to a detailed description
       - 📄 [polymorphism_static_vs_dynamic.py](#file-ch_16-polymorphism-static-vs-dynamic-py)
       - 📄 [operator_overloading_and_dunders.py](#file-ch_16-operator-overloading-and-dunders-py)    
       - 📄 [property_decorators.py](#file-ch_16-property-decorators-py)    
+  - 📁 **[Ch_17/](#ch_17)**
+      - 📄 [common_python_exceptions.py](#file-ch_17-common-python-exceptions-py)
+      - 📄 [exception_handling.py](#file-ch_17-exception-handling-py)
+      - 📄 [raise_exceptions_and_validation.py](#file-ch_17-raise-exceptions-and-validation-py)
+      - 📄 [custom_exceptions.py](#file-ch_17-custom-exceptions-py)
+      - 📄 [Ex_01.py](#file-ch_17-Ex-01-py)
+      - 📄 [file.txt](#file-ch_17-file-txt)
+  - 📁 **[Ch_18/](#ch_18)**
+      - 📄 [file_io_basics.py](#file-ch_18-file-io-basics-py)
+      - 📄 [file_modes_and_operations.py](#file-ch_18-file-modes-and-operations-py)
+      - 📄 [with_statement.py](#file-ch_18-with-statement-py)
+      - 📄 [file_data_descriptors.py](#file-ch_18-file-data-descriptors-py)
+      - 📄 [Ex_01.py](#file-ch_18-Ex-01-py)
+      - 📄 [Ex_02.py](#file-ch_18-Ex-02-py)
+      - 📄 [Ex_03.py](#file-ch_18-Ex-03-py)
+      - 📄 [file.txt](#file-ch_18-file-txt)
+      - 📄 [Ex_01.txt](#file-ch_18-Ex-01-txt)
+      - 📄 [Ex_02.txt](#file-ch_18-Ex-02-txt)
+      - 📄 [Ex_03.html](#file-ch_18-Ex-03-html)
     
 ---
 
@@ -413,7 +432,6 @@ Below is the project hierarchy. Click any file to jump to a detailed description
 
 
 
----
 
 <a id="ch_16"></a>
 ### 📘 Chapter 16 — Object Oriented Programming (OOP)
@@ -438,6 +456,44 @@ Below is the project hierarchy. Click any file to jump to a detailed description
 | <a id="file-ch_16-Ex-01-py"></a>**Ch_16/Ex_01.py**                                                       | exercise — `Laptop` class: type-hinted `__init__`, instance attributes, and two objects.    |
 | <a id="file-ch_16-Ex-02-py"></a>**Ch_16/Ex_02.py**                                                       | exercise — adds an `apply_discount()` instance method that returns a percentage off price.  |
 | <a id="file-ch_16-Ex-03-py"></a>**Ch_16/Ex_03.py**                                                       | exercise — `total_persons` class variable counting instances, inspected via `__dict__`.     |
+
+
+
+
+<a id="ch_17"></a>
+### 📘 Chapter 17 — Python Errors & Exception Handling 
+
+|                                 **Files**                                                              |                      **Key Concepts**                                                                                                                                                             |
+|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| <a id="file-ch_17-common-python-exceptions-py"></a>**Ch_17/common_python_exceptions.py**               | tour of built-in exceptions (`NameError`, `TypeError`, `IndexError`, `ValueError`, `KeyError`, `ZeroDivisionError`, `FileNotFoundError`, `RecursionError`, …) and compile-time vs runtime errors. |
+| <a id="file-ch_17-exception-handling-py"></a>**Ch_17/exception_handling.py**                           | `try`/`except`/`else`/`finally`, multiple and grouped handlers, `as` to capture the error object, catching `Exception`, exception propagation, and cleanup.                                       |
+| <a id="file-ch_17-raise-exceptions-and-validation-py"></a>**Ch_17/raise_exceptions_and_validation.py** | triggering errors manually with `raise`, choosing the correct exception type, `isinstance()` type validation, and `NotImplementedError` for subclass-only methods.                                |
+| <a id="file-ch_17-custom-exceptions-py"></a>**Ch_17/custom_exceptions.py**                             | user-defined exception classes inheriting from `Exception` / `ValueError` for readable, domain-specific errors and retry loops.                                                                   |
+| <a id="file-ch_17-Ex-01-py"></a>**Ch_17/Ex_01.py**                                                     | exercise — a `divide()` function that guards against `ZeroDivisionError` and `TypeError` with friendly messages.                                                                                  |
+| <a id="file-ch_17-file-txt"></a>**Ch_17/file.txt**                                                     | sample text file used by the `finally`-block cleanup and `FileNotFoundError` examples.                                                                                                            |
+                                                    
+
+
+
+<a id="ch_18"></a>
+### 📘 Chapter 18 — File Handling & File I/O
+
+|                                 **Files**                                                  |                      **Key Concepts**                                                                                                                                            |
+|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| <a id="file-ch_18-file-io-basics-py"></a>**Ch_18/file_io_basics.py**                       | `open()` / `close()`, `encoding='utf-8'`, `read()` with a character limit, `readline()`, `readlines()`, cursor position with `tell()` / `seek()`, and absolute raw-string paths. |
+| <a id="file-ch_18-file-modes-and-operations-py"></a>**Ch_18/file_modes_and_operations.py** | every file mode side by side — `r`, `w`, `a`, `x`, `r+`, `rb`, `wb` — overwrite vs append, auto-creation, `write()`, and `FileNotFoundError` / `FileExistsError`.                |
+| <a id="file-ch_18-with-statement-py"></a>**Ch_18/with_statement.py**                       | the `with` context manager for automatic closing (even on errors) and opening several files in one parenthesized statement.                                                      |
+| <a id="file-ch_18-file-data-descriptors-py"></a>**Ch_18/file_data_descriptors.py**         | file object attributes — `.name`, `.closed`, `.mode`, `.encoding`, `.newlines` — and inspecting them inside vs after a `with` block.                                             |
+| <a id="file-ch_18-Ex-01-py"></a>**Ch_18/Ex_01.py**                                         | exercise — copy one file's contents into another (creating it if absent), wrapped in `FileNotFoundError` / `PermissionError` handling.                                           |
+| <a id="file-ch_18-Ex-02-py"></a>**Ch_18/Ex_02.py**                                         | exercise — parse comma-separated `name, points` lines and append reformatted sentences to an output file using `split()` and `strip()`.                                          |
+| <a id="file-ch_18-Ex-03-py"></a>**Ch_18/Ex_03.py**                                         | exercise — extract `href` URLs from an HTML file into `links.txt`, solved two ways: line-by-line and a `find()` + slicing loop over the whole page.                              |
+| <a id="file-ch_18-file-txt"></a>**Ch_18/file.txt**                                         | sample multi-line text file used across the reading, mode, and `with` examples.                                                                                                  |
+| <a id="file-ch_18-Ex-01-txt"></a>**Ch_18/Ex_01.txt**                                       | source file for the copy exercise.                                                                                                                                               |
+| <a id="file-ch_18-Ex-02-txt"></a>**Ch_18/Ex_02.txt**                                       | comma-separated name/points data used by the formatting exercise.                                                                                                                |
+| <a id="file-ch_18-Ex-03-html"></a>**Ch_18/Ex_03.html**                                     | sample HTML page containing anchor tags, used as input for the link-extraction exercise.                                                                                         |
+
+
+
 
 ---
 
